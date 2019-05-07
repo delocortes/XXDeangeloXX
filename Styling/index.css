@@ -1,0 +1,41 @@
+h1 {
+   font-size: 62px; text-align: center; color: white; 
+}
+
+
+p {
+     font-size: 20px; text-align: center; color: white;
+}
+
+nav {
+    text-align: center; 
+}
+
+nav a:hover {
+    animation-name: NavHover;
+    animation-duration: 3s;
+    position: relative;
+    color: cyan;
+}
+
+
+
+
+a {
+    padding: 16px;font-size: 44px;text-align: center; color: white;
+}
+
+button {
+    text-align: center;
+}
+
+
+@keyframes NavHover {
+    0% {left:0px;}
+    25% {left:50px;}
+    50% {left:0px}
+    75% {left:-50px}
+    100% {left:0px; padding: 10px;}
+}
+
+
